@@ -1,0 +1,12 @@
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="TestNG.Disabled_TC_test3">
+      	<methods>
+      		<include name = "TC2"/>
+      		<include name = "TC1"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

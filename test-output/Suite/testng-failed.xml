@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="Guru_Bank_project.Test_Class">
+        <methods>
+          <include name="logInToApp"/>
+          <include name="veifyManagerText"/>
+          <include name="verify_New_Customer_Text"/>
+          <include name="logOutFromApp"/>
+          <include name="openBrowser"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Guru_Bank_project.Test_Class -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browerName" value="Firefox"/>
+    <classes>
+      <class name="Guru_Bank_project.Test_Class">
+        <methods>
+          <include name="logInToApp"/>
+          <include name="veifyManagerText"/>
+          <include name="verify_New_Customer_Text"/>
+          <include name="logOutFromApp"/>
+          <include name="openBrowser"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Guru_Bank_project.Test_Class -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
